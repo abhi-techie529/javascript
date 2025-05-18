@@ -27,5 +27,7 @@ console.log(undefined > 0);
 
 // but mostly we avoid these type of conversions like :- null , undefined and use only clean code
 
+// === "strictly equal"
+console.log("2" === 2); // false because "2" = string and 2 = number
 
 
