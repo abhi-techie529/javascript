@@ -9,7 +9,7 @@ anotherName = "Chakarvyuah"
 console.log(myName);
 console.log(anotherName);
 
-// in this we get a copy of data from the original data
+// in this we get a copy of data from the original data 
 
 //********* Heap ************//
 
