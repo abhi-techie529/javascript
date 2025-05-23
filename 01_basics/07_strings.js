@@ -17,6 +17,7 @@ console.log(gameName.toLocaleUpperCase());
 console.log(gameName.charAt(2));  // by using this we can find out the that at what number which character is placed
 console.log(gameName.indexOf('i')); // by using this we can find out the at which number which character is placed
 
+
 const newString = gameName.substring(0,4) // in this we need to add the range of number in between we want to find the character
 console.log(newString);
 
