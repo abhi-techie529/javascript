@@ -34,7 +34,7 @@ const n1 = myArr.slice(1, 3) // this method returns a new array with the element
 console.log(n1);
 console.log("B",myArr);
 
-const n2 = myArr.splice(1, 3) // this method removes the elements from index 1 to index 3 (not inclusive) and returns them as a new array ,1 included , 2 included, 3 not included [0,1,2]
+const n2 = myArr.splice(1, 3) // this method removes the elements from index 1 to index 3 (not inclusive) and returns them as a new array ,1 included , 2 included, 3 not included [1,2,3]
 console.log("C",myArr);
 console.log(n2);
 
