@@ -44,4 +44,16 @@ console.log("Result:" , result );
 
 //*********** New Function  ************//
 
+function loginUserMessage(username = "sam"){
+    if( username === undefined){
+          console.log("please enter a username");
+          return
+          
+    }
+    return `${username} just logged in`
+}
+ 
+// console.log(loginUserMessage("Abhimanyu"));
+console.log(loginUserMessage());      // in this situation if do not paas anything this will return "undefined" not "null" (interview question)
+
 
